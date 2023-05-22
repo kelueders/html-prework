@@ -1,0 +1,167 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:rgb(175, 206, 178);
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color:black;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: #e218a5;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(7, 7, 7, 0.5),rgba(122, 126, 122, 0.5)),url("../images/disneyland2.JPG");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text{
+    color:rgb(127, 120, 230);
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: pink;
+    background-color: rgb(20, 19, 19);
+    background-blend-mode:luminosity;
+    padding-right:15px;
+    padding-left:15px;
+    text-shadow: 6px 6px 7px rgb(47, 115, 124)
+}
+
+#main{
+    width:75%;
+    float:left;
+    height:100%;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+#side{
+    width:18%;
+    float:right;
+    height:100%;
+    padding:20px;
+}
+
+#profile-image{
+    width:100%;
+    border-radius:50%;
+    border:5px solid rgb(40, 75, 50);
+}
+
+#profile{
+    text-align:center;
+}
+
+#duchess{
+    height:300px;
+    float:left;
+    padding-right: 20px;
+}
+
+#hiking {
+    float:right;
+    height:200px;
+}
+
+.side-articles ul{
+    list-style-type:none;
+    padding-left:0px;
+}
+
+#profile h2{
+    display:inline;
+}
+
+#profile-details{
+    margin-right:30px;
+    text-align:center;
+}
+
+.side-articles, .main-articles{
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+
+.side-articles{
+    background-color:#9d8da7;
+    text-align:center;
+}
+
+.main-articles{
+    background-color:#f3edf7;
+}
+
+#cat{
+    height:400px;
+}
+
+#travel{
+    height:300px;
+}
+
+form{
+    margin-top:20px;
+}
+
+textarea, input{
+    background-color:lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer{
+    bottom:0px;
+    width:100%;
+    background-color:rgb(230, 220, 235);
+    height:5vh;
+}
+
+footer div{
+    text-align: center;
+    color:rgb(109, 97, 97);
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top:0px;
+    height:12px;
+    border:0px;
+    box-shadow:inset 0 12px 12px -12px rgb(153, 83, 138);
+}

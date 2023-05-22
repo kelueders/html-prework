@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>Kate's Portfolio</li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="coding.html">Coding</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="nature.html">Nature</a></li>
+            </ul>
+        </nav>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1 style="font-size:50px;">Kate Lueders</h1>
+                <p>Python Programmer</p>
+            </div>
+        </div>
+        <main>
+            <div id="main">
+                <article class="main-articles" id="coding">
+                    <h1>My Journey Into Coding</h1>
+                    <strong><small>Life has been a winding road</small></strong>
+                    <p>My interest in computers began as a teenager as I attempted to build websites in order to collaborate with others on roleplaying websites about Harry Potter and other fantasy worlds. 
+                        Because of this interest I took several programming classes in high school, but had an uninspiring teacher so I veered toward the physical sciences in college. I majored in Biology 
+                        with a plan to go into some area of research. After working through several internships I realized a PhD in a specific sector of the biological sciences was not of interest to me. At that time I considered returning
+                        to school to become a computer programmer, but the path seemed too long given my background in biology and I had never heard of bootcamps. So instead I become a physical therapist. I was interested in health and fitness, and figured I could help people and solve 
+                        problems in that field. All the while I wondered what could have been had I gone into software. And unforunately after six years in the healthcare field, I have burned out due to the rigors of patient care. I became inspired, though, while I was working for an 
+                        up-and-coming physical therapy company based out of California that had designed an app through which all documentation, communication, records, home exercises, and staff assistance could be provided. The app made my job so much easier. And the company now is rapidly growing.
+                        I realized there is a lot of potential in the healthcare industry for software like this that could help healthcare workers, lessening burnout and improving outcomes. I do feel the industry could use software developers with a clinical background in order
+                        to fully optimize the systems and advance healthcare in general into this new technological era.</p>
+                </article>
+                <article class="main-articles" id="cat">
+                    <h1>Important People & Animals</h1>
+                    <strong><small>People and pets are very important to me</small></strong>
+                    <figure>
+                        <img id="duchess" src="images/duchess.jpg">
+                        <figcaption><em>Duchess</em></figcaption>
+                    </figure>
+                    <p>My cat, Duchess, is very important to me. She is demanding at times, but spends much of the day curled up in her various sleeping areas. She wants to be a good hunter, but 
+                        is a bit too slow and clumsy. I am close with my family, as well who live in the area. And I enjoy spending time with friends too, exploring the outdoors, sharing food, and hanging out.
+                    </p>
+                </article>
+                <article class="main-articles" id="travel">
+                    <h1>My Travels</h1>
+                    <strong><small>Travel far and wide</small></strong>
+                    <figure>
+                        <img id="hiking" src="images/hiking.jpg">
+                        <figcaption><em>Yosemite</em></figcaption>
+                    </figure>
+                    <p>I enjoy traveling in particular to National Parks and other outdoor areas. Last summer I went to Yosemite and plan to go to Acadia National Park next. I love to hike some tough trails, but 
+                        also enjoy the local food, wine, and beer options. I love breweries and wineries and tasting new things around the country. I'd like to travel internationally at some point.
+                    </p>
+                </article>
+            </div>
+            <div id="side">
+                <article class="side-articles" id="profile">
+                    <img id="profile-image" src="images/me.jpg">
+                    <div id="profile-details">
+                        <h2>Kate Lueders</h2>
+                        <ul>
+                            <li>123 Fake St</li>
+                            <li>Chicago, IL 17402</li>
+                            <li>(999) 555-2222</li>
+                            <li><a href="mailto:kate@gmail.com">test@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="side-articles">
+                    <h1>Overview</h1>
+                    <strong><small>Hello! Welcome to my profile. I will be telling you about myself so you can get to know me.</small></strong>
+                    <p>I am grew up in a suburb of Chicago and have not moved far. I did recently move back from a year living in Nashville. I had a
+                        great time enjoying the music scene, good food, and southern hospitality, but decided to move back to Chicago where I feel at home. I'm a Cubs fan and
+                        I love food! See the food tab for more information. I also love physical activity. Anything like running, cycling, hiking, swimming,
+                        and kayaking. I love the outdoors and being in nature. I also enjoy more relaxing pursuits like reading, gaming, board games, and 
+                        puzzles.
+                    </p>
+                </article>
+                <article class="side-articles">
+                    <h1>Contact Me</h1>
+                    <strong><small>Please contact me with questions.</small></strong>
+                    <br>
+                    <form action="mailto:johnd@gmail.com" method="POST">
+                        <label for="name"><strong>Name</strong></label>
+                        <br>
+                        <input type="text" id="name" placeholder="Your Name">
+                        <br>
+                        <label for="body"><strong>Message</strong></label>
+                        <br>
+                        <textarea id="body" placeholder="Your message" rows="5"></textarea>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            <div>
+                &copy Kate Doe 2023
+            </div>
+        </footer>
+    </body>
+</html>
